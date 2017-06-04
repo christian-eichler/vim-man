@@ -1,7 +1,7 @@
-if exists('b:did_ftplugin')
+if exists('b:man_did_ftplugin')
   finish
 endif
-let b:did_ftplugin = 1
+let b:man_did_ftplugin = 1
 
 " Ensure Vim is not recursively invoked (man-db does this)
 " when doing ctrl-] on a man page reference.
